@@ -12,7 +12,7 @@ public void OpenFreeVieoAndPlayTheVideo() throws Exception {
 	  HomePage aHomePage = new HomePage(driver);
 	  aHomePage.GoToBongoSite("https://bongobd.com/");
 	  aHomePage.ScrollDown();
-	  aHomePage.ClickOnFreeContent();
+	  aHomePage.ClickOnFreeContent(3);
 	  aHomePage.PlayVideoFullScreenMode();
 	  
   }
