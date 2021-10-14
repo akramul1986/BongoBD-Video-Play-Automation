@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Akramul Islam\AppData\Local\Temp\testng-eclipse-372826550\testng-customsuite.xml</span>
+                    <span>C:\Users\Akramul Islam\AppData\Local\Temp\testng-eclipse--380226094\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,28 +130,17 @@
                   <a name="OpenFreeVieoAndPlayTheVideo">
                   </a> <!-- OpenFreeVieoAndPlayTheVideo -->
                   <span class="method-name">OpenFreeVieoAndPlayTheVideo</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;MuiGrid-root jss635 MuiGrid-item MuiGrid-grid-xs-12&quot;&gt;...&lt;/div&gt; is not clickable at point (767, 685). Other element would receive the click: &lt;div class=&quot;MuiCardMedia-root jss680 jss1392&quot; style=&quot;background-image: url(&amp;quot;//cdn.bongobd.com/upload/content/landscape/hd/zW9n8S2Qb2O.jpg&amp;quot;);&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=94.0.4606.81)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using class name=vjs-fullscreen-control
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-OBPCTC9&apos;, ip: &apos;192.168.68.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\AKRAMU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e86a668a7fe6c408c6e34742b61f8745
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at webpage.HomePage.ClickOnFreeContent(HomePage.java:55)
-	at testCase.TestCases.OpenFreeVieoAndPlayTheVideo(TestCases.java:17)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at webpage.HomePage.PlayVideoFullScreenMode(HomePage.java:69)
+	at testCase.TestCases.OpenFreeVieoAndPlayTheVideo(TestCases.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -189,7 +178,7 @@ Session ID: e86a668a7fe6c408c6e34742b61f8745
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Akramul Islam\AppData\Local\Temp\testng-eclipse-372826550\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Akramul Islam\AppData\Local\Temp\testng-eclipse--380226094\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -242,12 +231,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'OpenFreeVieoAndPlayTheVideo')
 data.setCell(0, 2, 'testCase.TestCases')
-data.setCell(0, 3, 29080);
+data.setCell(0, 3, 18652);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -282,11 +271,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">OpenFreeVieoAndPlayTheVideo</span>
-                <span class="method-start">46679 ms</span>
+                <span class="method-start">32109 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75763 ms</span>
+                <span class="method-start">50772 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
